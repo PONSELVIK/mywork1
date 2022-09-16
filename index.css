@@ -1,0 +1,135 @@
+body{
+    background-color: gray;
+    margin: 0px;
+    /* align-items: center; */
+    /* margin-left: 30vw; */
+
+}
+.box1{
+    background-color: white;
+    border: red 4px solid;
+    border-radius: 10px;
+    color: red;
+    margin-top: 0px;
+    margin-left: 30vw;
+    height: 100px;
+    width: 300px;
+    text-align:center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px black;
+    text-shadow: 2px 1px rgb(27, 22, 22);
+    font-size: x-large;
+}
+
+.container{
+    border: green 5px solid;
+    height: 500px;
+    width: 1300px;
+    margin-left: 20px;
+    
+}
+
+.box{
+    background-color: white;
+    border: rgb(221, 36, 36) 5px solid ;
+    color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    margin-left: 10px;
+    text-align: center;
+    text-shadow: 5px;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    box-shadow: 5px 5px black;
+    text-shadow: 2px 1px rgb(27, 22, 22);
+    /* justify-content: space-between; */
+    
+}
+.box2{
+    float: left;
+}
+.box3{
+    float: right;
+    margin-right: 50px;
+    margin-top: 0px;
+
+}
+.box4{
+    font-size:large;
+    text-align: left;
+    /* float: left; */
+    margin-top: 200px;
+    margin-left: 10px;
+}
+.box5{
+    float: right;
+    /* margin-bottom: 70px; */
+    margin-top: -142px;
+    margin-right: 50px;
+}
+.boxinfo{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    width: 120px;
+    /* padding-bottom: 3px; */
+}
+.stickybox{
+    background-color: greenyellow;
+    color: rgb(94, 41, 41);
+    border: 4px red solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px violet;
+    text-shadow: 1px 1px rgb(94, 41, 41);
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+    height: 50px;
+    width: 400px;
+    position: fixed;
+    left: 25vw;
+    bottom: 20px;
+    padding: 10px;
+    margin-left: 150px;
+}
+.container2{
+    background-color: green;
+    font-weight: bold;
+    color: black;
+    width: 1000px;
+    height: 500px;
+    margin-left: 2vw;
+    border: 3px rgb(78, 3, 78) solid; 
+    margin-left: 20vw;
+}
+.fruit{
+    background-color: rgb(230, 230, 78);
+    float: left;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+.vegetables{
+    background-color: rgb(230, 230, 78);
+    float: right;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+.otheritems{
+    background-color: rgb(230, 230, 78);
+    height: 200px;
+    width: 900px;
+    margin-top: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
